@@ -1,0 +1,26 @@
+[25-04-04 15:58:58-INFO] {'phase': 'train', 'pickle_file_path': './Dataset/ham10000/ham10000_train_test_names.pkl', 'snapshot_path': './ckpt/202504041558', 'epochs': 150, 'GPUs': [0], 'num_workers': 8, 'batch_size': 8, 'save_freq': 5, 'seed': 2333, 'in_channel': 4, 'out_channels': 4, 'num_res_blocks': 2, 'ch': 32, 'ch_mult': [1, 2, 4, 4], 'lr': 0.002, 'w_rec': 1, 'w_dice': 1, 'log_path': './ckpt/202504041558\\logs'}
+[25-04-04 15:58:58-INFO] ----------------- Options ---------------
+                    phase: train                         
+         pickle_file_path: ./Dataset/ham10000/ham10000_train_test_names.pkl
+            snapshot_path: ./ckpt/202504041558           
+                   epochs: 150                           
+                     GPUs: [0]                           
+              num_workers: 8                             
+               batch_size: 8                             
+                save_freq: 5                             
+                     seed: 2333                          
+               in_channel: 4                             
+             out_channels: 4                             
+           num_res_blocks: 2                             
+                       ch: 32                            
+                  ch_mult: [1, 2, 4, 4]                  
+                       lr: 0.002                         
+                    w_rec: 1                             
+                   w_dice: 1                             
+                 log_path: ./ckpt/202504041558\logs      
+----------------- End -------------------
+[25-04-04 15:58:58-INFO] train set num: 8015
+[25-04-04 15:58:58-INFO] test set num: 2000
+[25-04-04 15:58:58-INFO] ---------- Networks initialized -------------
+[25-04-04 15:58:58-INFO] Total number of parameters : 1.565 M
+[25-04-04 15:58:58-INFO] -----------------------------------------------
