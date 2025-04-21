@@ -1,3 +1,3 @@
 import torch
-from medsegbench import BkaiIghMSBench
-train_dataset = BkaiIghMSBench(split="train", download=True)
+from medsegbench import FHPsAOPMSBench
+train_dataset = FHPsAOPMSBench(split="train", download=True)
